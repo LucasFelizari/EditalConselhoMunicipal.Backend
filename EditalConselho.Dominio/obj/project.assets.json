@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj",
       "projectName": "EditalConselho.Dominio",
-      "projectPath": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj",
+      "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj",
       "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

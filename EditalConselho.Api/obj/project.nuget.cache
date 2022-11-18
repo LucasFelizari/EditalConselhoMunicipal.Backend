@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S3eA9NbRGvqKWPCENLOkQztOwvmwMdUARb5WI7QE/um1LujJ0li24in/J6/sDP4kJWkKQna2Wp1EIBLzleotZg==",
+  "dgSpecHash": "LBzuesxsxC1C864TSyMDPPD55zbi6Wqu8zbbp5GOk+rDyiH1h5aSolrjrznuHbHCwc9ZvF4nAcwEBHXk23yxug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
+  "projectFilePath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\1.0.4\\microsoft.aspnetcore.hosting.abstractions.1.0.4.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\1.0.4\\microsoft.aspnetcore.hosting.server.abstractions.1.0.4.nupkg.sha512",

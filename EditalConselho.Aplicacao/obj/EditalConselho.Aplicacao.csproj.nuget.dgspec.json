@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj": {}
+    "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj": {
+    "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
         "projectName": "EditalConselho.Aplicacao",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
+        "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\obj\\",
+        "outputPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

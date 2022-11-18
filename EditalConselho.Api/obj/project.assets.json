@@ -5867,11 +5867,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
       "projectName": "EditalConselho.Api",
-      "projectPath": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
+      "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
       "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas\\Desktop\\edital\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\obj\\",
+      "outputPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
