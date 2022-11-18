@@ -11,7 +11,7 @@ namespace EditalConselho.Api.Controllers
     public class EditalConselhoController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<string> Get()
         {
             var rng = new Random();
             return null;
