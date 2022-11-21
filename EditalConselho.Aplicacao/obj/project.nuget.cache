@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6GMSLpPvxDbSrjvlDRASLwbYhJIZlDJi5Fq+P9u/tgk7SsBS/QIeXZ+E2Gz3rWu+7wn4xhNqfERUIZGKiHPlXg==",
+  "dgSpecHash": "tgT8PnlC9+UB1t61v3p5EoDZ7zR2mRpZCSAVQM0KddxMcl/b95Kns4RclM0HfLxewa39KHFZPIkV5uzCMB2tzQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

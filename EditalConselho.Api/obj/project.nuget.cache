@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "chKb27A/L+2OapeTkxqxHat3sVZ4sliGeeoHVk9XgTAUKNEqchnjz0cmgOEpeXbsyzBtOPYKzBfS4VnvaSfDhw==",
+  "dgSpecHash": "X4mqjvu7Z3ygxPzn2JPDNp3a72uX0aZyH7A0pquNZBKS32FZl4LxeDgaVd1y/OKIcwtDV9qxJhb/lfNvD2JOvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
   "expectedPackageFiles": [
@@ -24,8 +24,8 @@
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.19\\microsoft.extensions.configuration.3.1.19.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.19\\microsoft.extensions.configuration.abstractions.3.1.19.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.19\\microsoft.extensions.configuration.binder.3.1.19.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.19\\microsoft.extensions.dependencyinjection.3.1.19.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.19\\microsoft.extensions.dependencyinjection.abstractions.3.1.19.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\1.0.1\\microsoft.extensions.fileproviders.abstractions.1.0.1.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\1.0.1\\microsoft.extensions.fileproviders.embedded.1.0.1.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.logging\\3.1.19\\microsoft.extensions.logging.3.1.19.nupkg.sha512",
