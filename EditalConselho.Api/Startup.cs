@@ -34,7 +34,7 @@ namespace EditalConselho.Api
             });
             services.AddControllers();
 
-            //ALTERAR AQUI CONEXÃO DO BANCO // TESTE NOVAMENTE
+            //ALTERAR AQUI CONEXÃO DO BANCO
             services.AddDbContext<EditalContexto>(options => options.UseMySql(Configuration.GetConnectionString("ConselhoDatabase")));
             
         }
