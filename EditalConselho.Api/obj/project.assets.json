@@ -6274,19 +6274,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucas\\.nuget\\packages\\": {}
+    "C:\\Users\\depin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
+      "projectUniqueName": "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
       "projectName": "EditalConselho.Api",
-      "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
-      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\obj\\",
+      "projectPath": "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
+      "packagesPath": "C:\\Users\\depin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\depin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6300,11 +6305,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj"
+            "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
+              "projectPath": "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj"
             },
-            "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj": {
-              "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj"
+            "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj": {
+              "projectPath": "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj"
             }
           }
         }
@@ -6358,7 +6363,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tgT8PnlC9+UB1t61v3p5EoDZ7zR2mRpZCSAVQM0KddxMcl/b95Kns4RclM0HfLxewa39KHFZPIkV5uzCMB2tzQ==",
+  "dgSpecHash": "dCUvBk0gI2Cj2XCV93gbV+8aiVxKYgY+yDvvy8H6/U+X9qYMJmKe4WfGIQP7j2DKOUmEvez1//gwpSEEqs6RXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
+  "projectFilePath": "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\depin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\depin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
