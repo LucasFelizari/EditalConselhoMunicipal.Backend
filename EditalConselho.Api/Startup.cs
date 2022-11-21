@@ -34,7 +34,9 @@ namespace EditalConselho.Api
             });
             services.AddControllers();
 
+            //ALTERAR AQUI CONEXÃO DO BANCO
             services.AddDbContext<EditalContexto>(options => options.UseMySql(Configuration.GetConnectionString("ConselhoDatabase")));
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
