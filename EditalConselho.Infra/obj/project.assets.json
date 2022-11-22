@@ -901,24 +901,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\depin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj",
       "projectName": "EditalConselho.Infra",
-      "projectPath": "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj",
-      "packagesPath": "C:\\Users\\depin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\depin\\OneDrive\\Documentos\\Faculdade\\Faculdade 2022\\2 Semestre\\Curricularização\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\obj\\",
+      "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj",
+      "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\depin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -968,7 +963,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
       }
     }
   }

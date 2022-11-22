@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "EditalConselho.Api/1.0.0": {
         "dependencies": {
+          "EditalConselho.Aplicacao": "1.0.0",
           "EditalConselho.Dominio": "1.0.0",
           "EditalConselho.Infra": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -939,7 +940,11 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.ComponentModel.Annotations/4.7.0": {
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        }
+      },
       "System.Console/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1506,6 +1511,18 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "EditalConselho.Aplicacao/1.0.0": {
+        "dependencies": {
+          "EditalConselho.Dominio": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0"
+        },
+        "runtime": {
+          "EditalConselho.Aplicacao.dll": {}
+        },
+        "compile": {
+          "EditalConselho.Aplicacao.dll": {}
         }
       },
       "EditalConselho.Dominio/1.0.0": {
@@ -3999,6 +4016,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "EditalConselho.Aplicacao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "EditalConselho.Dominio/1.0.0": {
       "type": "project",

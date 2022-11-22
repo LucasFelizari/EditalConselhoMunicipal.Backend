@@ -7,5 +7,7 @@ namespace EditalConselho.Infra.Database
         public EditalContexto(DbContextOptions<EditalContexto> options) : base(options)
         {
         }
+
+
     }
 }
