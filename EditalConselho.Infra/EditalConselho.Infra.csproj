@@ -10,10 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapeamento\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\EditalConselho.Dominio\EditalConselho.Dominio.csproj" />
   </ItemGroup>
 

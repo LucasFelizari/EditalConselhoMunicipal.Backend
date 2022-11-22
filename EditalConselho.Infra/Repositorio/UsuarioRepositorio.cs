@@ -4,5 +4,6 @@ namespace EditalConselho.Infra.Repositorio
 {
     public class UsuarioRepositorio : IUsuarioRepositorio
     {
+
     }
 }

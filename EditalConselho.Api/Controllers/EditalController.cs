@@ -1,5 +1,7 @@
 ﻿using EditalConselho.Dominio;
+using EditalConselho.Dominio.Interface;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 
 namespace EditalConselho.Api.Controllers
@@ -8,6 +10,12 @@ namespace EditalConselho.Api.Controllers
     [Route("[controller]")]
     public class EditalController : ControllerBase
     {
+        private readonly IEditalAplicacao _editalAplicacao;
+
+        public EditalController(IServiceProvider provider)
+        {
+            _editalAplicacao = provider.GetRequiredService<IEditalAplicacao>();
+        }
 
         [HttpPost("RegistrarEdital"), ActionName("RegistrarEdital")]
         [ProducesResponseType(200), ProducesResponseType(400), ProducesResponseType(500)]
