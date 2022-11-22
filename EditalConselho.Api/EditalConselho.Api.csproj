@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EditalConselho.Aplicacao\EditalConselho.Aplicacao.csproj" />
     <ProjectReference Include="..\EditalConselho.Dominio\EditalConselho.Dominio.csproj" />
     <ProjectReference Include="..\EditalConselho.Infra\EditalConselho.Infra.csproj" />
   </ItemGroup>

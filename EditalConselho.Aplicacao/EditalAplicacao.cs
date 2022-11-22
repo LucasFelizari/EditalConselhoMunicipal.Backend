@@ -1,6 +1,8 @@
-﻿namespace EditalConselho.Aplicacao
+﻿using EditalConselho.Dominio.Interface;
+
+namespace EditalConselho.Aplicacao
 {
-    public class EditalAplicacao
+    public class EditalAplicacao : IEditalAplicacao
     {
 
     }
