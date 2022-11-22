@@ -1538,6 +1538,7 @@
       },
       "EditalConselho.Infra/1.0.0": {
         "dependencies": {
+          "EditalConselho.Dominio": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "3.2.7"
         },

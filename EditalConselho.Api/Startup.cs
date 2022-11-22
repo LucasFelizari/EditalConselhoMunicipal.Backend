@@ -13,6 +13,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql;
+using EditalConselho.Api.Utils;
 
 namespace EditalConselho.Api
 {
@@ -33,6 +34,8 @@ namespace EditalConselho.Api
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Edital Conselho", Version = "v1" });
             });
             services.AddControllers();
+
+            InjecaoDependencia.Injetar(services);
 
             //ALTERAR AQUI CONEXÃO DO BANCO //OI FELIZARI//
             services.AddDbContext<EditalContexto>(options => options.UseMySql(Configuration.GetConnectionString("ConselhoDatabase")));
