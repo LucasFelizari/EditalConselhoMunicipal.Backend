@@ -16,7 +16,7 @@ namespace EditalConselho.Infra.Repositorio
 
         public Usuario ObterUsuarioPorId(int idUsuario)
         {
-            return _contexto.Usuario.Where(x => x.Id == idUsuario).FirstOrDefault();
+            return _contexto.Usuario.FirstOrDefault(d => d.Id == idUsuario);
         }
     }
 }

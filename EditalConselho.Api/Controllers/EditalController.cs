@@ -23,6 +23,7 @@ namespace EditalConselho.Api.Controllers
         {
             try
             {
+                
                 return Ok();
             }
             catch (Exception ex)

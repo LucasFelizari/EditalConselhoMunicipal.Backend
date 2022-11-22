@@ -1,9 +1,6 @@
 ﻿using EditalConselho.Dominio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace EditalConselho.Infra.Mapeamento
 {
@@ -15,7 +12,6 @@ namespace EditalConselho.Infra.Mapeamento
 
             builder.Property(d => d.Nome).HasColumnType("varchar");
             builder.Property(d => d.Senha).HasColumnType("varchar");
-
         }
     }
 }
