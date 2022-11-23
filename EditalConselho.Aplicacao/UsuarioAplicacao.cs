@@ -11,7 +11,8 @@ namespace EditalConselho.Aplicacao
             Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
             if (!regex.IsMatch(login.Email))
                 return false;
-            else return true;
+            else
+                return true;
 
             //se login.usuario for encontrado no banco de dados
             //      valida senha informada com a salva no banco de dados.
