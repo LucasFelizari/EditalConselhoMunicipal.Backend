@@ -10,5 +10,6 @@
         public string Telefone { get; set; }
         public string CPF { get; set; }
         public string Senha { get; set; }
+        public string CEP { get; set; }
     }
 }

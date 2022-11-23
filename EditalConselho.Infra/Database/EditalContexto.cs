@@ -1,4 +1,5 @@
 ﻿using EditalConselho.Dominio;
+using EditalConselho.Dominio.Classes;
 using EditalConselho.Infra.Mapeamento;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,10 +12,12 @@ namespace EditalConselho.Infra.Database
         }
 
         public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Edital> Edital { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UsuarioMapeamento());
+            modelBuilder.ApplyConfiguration(new EditalMapeamento());
 
             base.OnModelCreating(modelBuilder);
         }
