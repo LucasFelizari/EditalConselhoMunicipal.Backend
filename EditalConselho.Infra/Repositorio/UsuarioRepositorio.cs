@@ -52,14 +52,14 @@ namespace EditalConselho.Infra.Repositorio
         }
 
         //TODO: Verificar retorno dessa função.
-        public Usuario CadastrarUsuario(Usuario usuario)
+        public bool CadastrarUsuario(Usuario usuario)
         {
             try
             {
                 var usuarioTemp = _contexto.Usuario.Add(usuario).Entity;
                 _contexto.SaveChanges();
 
-                return usuarioTemp;
+                return true;
             }
             catch (Exception ex)
             {

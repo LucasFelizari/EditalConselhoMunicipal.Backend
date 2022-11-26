@@ -3,5 +3,6 @@
     public interface IUsuarioAplicacao
     {
         bool Login(LoginDto login);
+        bool RegistrarUsuario(Usuario usuario);
     }
 }

@@ -40,11 +40,11 @@ namespace EditalConselho.Api.Controllers
         {
             try
             {
-                Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
-                if (!regex.IsMatch(usuario.Email))
-                    return Unauthorized();
+                //Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
+                //if (!regex.IsMatch(usuario.Email))
+                //    return Unauthorized();
 
-                return Ok();
+                return Ok(_usuarioAplicacao.RegistrarUsuario(usuario));
             }
             catch (Exception ex)
             {

@@ -17,8 +17,8 @@ namespace EditalConselho.Infra.Mapeamento
             builder.Property(d => d.IdArquivo).HasColumnType("int");
             builder.Property(d => d.IdUsuario).HasColumnType("int");
             builder.HasKey(d => d.IdArquivo);
-            builder.Property(d => d.Titulo).HasColumnType("varchar");
-            builder.Property(d => d.Descricao).HasColumnType("varchar");
+            builder.Property(d => d.Titulo).HasColumnType("varchar(100)").HasMaxLength(100);
+            builder.Property(d => d.Descricao).HasColumnType("varchar(100)").HasMaxLength(100);
             builder.Property(d => d.DataEnvio).HasColumnType("datetime");
             builder.Property(d => d.Arquivo).HasColumnType("MediumBLOB");
         }

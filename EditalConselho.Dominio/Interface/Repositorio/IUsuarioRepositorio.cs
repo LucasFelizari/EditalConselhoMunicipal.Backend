@@ -2,5 +2,6 @@
 {
     public interface IUsuarioRepositorio
     {
+        bool CadastrarUsuario(Usuario usuario);
     }
 }

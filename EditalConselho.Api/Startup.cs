@@ -38,7 +38,7 @@ namespace EditalConselho.Api
             InjecaoDependencia.Injetar(services);
 
             //ALTERAR AQUI CONEXÃO DO BANCO //OI FELIZARI//
-            services.AddDbContext<EditalContexto>(options => options.UseMySql(Configuration.GetConnectionString("ConselhoDatabase")));
+            services.AddDbContext<EditalContexto>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             
         }
 
