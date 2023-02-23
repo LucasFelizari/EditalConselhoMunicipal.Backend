@@ -24,37 +24,36 @@ namespace EditalConselho.Infra.Repositorio
             {
                 return _contexto.Edital.FirstOrDefault(d => d.IdArquivo == idArquivo);
             }
-            catch (Exception)
+            catch
             {
                 return null;
             }
         }
 
-        public List<Edital> ObterEditalPorUsuario(int idUsuario)
+        public List<Edital> BuscarEditalPorUsuario(int idUsuario)
         {
             try
             {
                 return _contexto.Edital.Where(d => d.IdUsuario == idUsuario).ToList();
             }
-            catch (Exception)
+            catch
             {
                 return null;
             }
         }
 
-        //TODO: Verificar retorno dessa função.
-        public Edital CadastrarEdital(Edital edital)
+        public bool CadastrarEdital(Edital edital)
         {
             try
             {
-                var arquivo = _contexto.Add(edital).Entity;
+                var objEdital = _contexto.Add(edital).Entity;
                 _contexto.SaveChanges();
 
-                return arquivo;
+                return true;
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                return false;
             }
         }
 
@@ -64,25 +63,50 @@ namespace EditalConselho.Infra.Repositorio
             {
                 return _contexto.Edital.Last(a => a.IdUsuario == idUsuario).IdArquivo + 1;
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                return 0;
             }
         }
 
-        //TODO: Verificar retorno dessa função.
-        public Edital AtualizarEdital(Edital edital)
+        public bool AtualizarEdital(Edital edital)
         {
             try
             {
-                var arquivo = _contexto.Edital.Update(edital).Entity;
+                _contexto.Edital.Update(edital);
                 _contexto.SaveChanges();
-                return arquivo;
+                return true;
 
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                return false;
+            }
+        }
+
+        public bool DeletarEdital(Edital edital)
+        {
+            try
+            {
+                _contexto.Edital.Remove(edital);
+                _contexto.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public Edital BuscarEdital(int idArquivo)
+        {
+            try
+            {
+                return _contexto.Edital.FirstOrDefault(x => x.IdArquivo== idArquivo);
+            }
+            catch
+            {
+                return null;
             }
         }
     }

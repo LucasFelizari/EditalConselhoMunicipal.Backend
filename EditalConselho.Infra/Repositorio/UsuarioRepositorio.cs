@@ -51,7 +51,6 @@ namespace EditalConselho.Infra.Repositorio
             }
         }
 
-        //TODO: Verificar retorno dessa função.
         public bool CadastrarUsuario(Usuario usuario)
         {
             try
@@ -67,19 +66,43 @@ namespace EditalConselho.Infra.Repositorio
             }
         }
 
-        //TODO: Verificar retorno dessa função.
-        public Usuario AtualizarUsuario(Usuario usuario)
+        public bool AtualizarUsuario(Usuario usuario)
         {
             try
             {
                 var usuarioTemp = _contexto.Usuario.Update(usuario).Entity;
                 _contexto.SaveChanges();
-
-                return usuarioTemp;
+                return true;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw ex;
+                return false;
+            }
+        }
+
+        public Usuario BuscarUsuario(LoginDto login)
+        {
+            try
+            {
+                return _contexto.Usuario.FirstOrDefault(x => x.Email.Equals(login.Email) && x.Senha.Equals(login.Senha));
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        public bool DeletarUsuario(Usuario usuario)
+        {
+            try
+            {
+                _contexto.Usuario.Remove(usuario);
+                _contexto.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
             }
         }
     }

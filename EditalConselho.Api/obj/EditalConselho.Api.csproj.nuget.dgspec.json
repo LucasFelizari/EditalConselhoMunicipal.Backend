@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj": {}
+    "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj": {
+    "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
+        "projectUniqueName": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
         "projectName": "EditalConselho.Api",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
-        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\obj\\",
+        "projectPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\EditalConselho.Api.csproj",
+        "packagesPath": "C:\\Users\\depin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\depin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj": {
-                "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj"
+              "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj": {
+                "projectPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj"
               },
-              "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj"
+              "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
+                "projectPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj"
               },
-              "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj": {
-                "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj"
+              "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj": {
+                "projectPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj"
               }
             }
           }
@@ -77,7 +82,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -89,21 +95,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj": {
+    "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
+        "projectUniqueName": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
         "projectName": "EditalConselho.Aplicacao",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
-        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\obj\\",
+        "projectPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\EditalConselho.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\depin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\depin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,14 +121,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj"
+              "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
+                "projectPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj"
               }
             }
           }
@@ -144,7 +155,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -153,21 +165,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
+    "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj",
+        "projectUniqueName": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj",
         "projectName": "EditalConselho.Dominio",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\obj\\",
+        "projectPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj",
+        "packagesPath": "C:\\Users\\depin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\depin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -175,6 +191,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -204,7 +221,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -213,21 +231,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj": {
+    "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj",
+        "projectUniqueName": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj",
         "projectName": "EditalConselho.Infra",
-        "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj",
-        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\obj\\",
+        "projectPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\EditalConselho.Infra.csproj",
+        "packagesPath": "C:\\Users\\depin\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Infra\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\depin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,14 +257,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Lucas\\Desktop\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj"
+              "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj": {
+                "projectPath": "C:\\Projetos\\Extensao\\EditalConselhoMunicipal.Backend\\EditalConselho.Dominio\\EditalConselho.Dominio.csproj"
               }
             }
           }
@@ -272,7 +295,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -281,7 +305,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

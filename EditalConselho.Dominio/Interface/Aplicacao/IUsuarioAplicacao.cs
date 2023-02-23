@@ -4,5 +4,6 @@
     {
         bool Login(LoginDto login);
         bool RegistrarUsuario(Usuario usuario);
+        bool DeletarUsuario(LoginDto login);
     }
 }
